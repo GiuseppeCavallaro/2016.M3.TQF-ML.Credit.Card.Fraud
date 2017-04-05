@@ -1,4 +1,4 @@
-# 2016.M3.TQF-ML.Credit.Card.Fraud
+Our aim is to model the features in the given data set and use this model to examine a credit card transaction and classify it to be fraudulent or otherwise and achieve 100% Credit Card Fraud Detection while minimizing the incorrect Fraud predictions.# 2016.M3.TQF-ML.Credit.Card.Fraud
 
 For my final project I choose the credit card fraud detection data set, from :"https://www.kaggle.com/dalpozz/creditcardfraud".
 
@@ -7,7 +7,8 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 My object is focused on detecting which are the main features V(i), that will help us to discover fraudolent transactions, for building a model able to discover the fraudolent transactions with 100% of accuracy. 
 
-My intention is to create classification models using: Logistic Regression, SVMs, Decision trees, K-nearest neighbors. For  selecting the meaningful features, I'll apply cross validation for hyperparameter tuning on each different classification models. 
-
 The main task here is to found the best model for unbalanced dataset, where there is an overwhelming class.
 I'll measure the accuracy using the Area Under the Precision-Recall Curve (AUPRC) and, also, I'll use the Confusion matrix.
+
+My intention is to create classification models using: Logistic Regression, SVMs, Decision trees, K-nearest neighbors. I'll apply cross validation for hyperparameter tuning on each different classification models. I'll use this model to examine a credit card transaction and classify it to be fraudulent or otherwise and achieve 100% Credit Card Fraud Detection while minimizing the incorrect Fraud predictions.
+
