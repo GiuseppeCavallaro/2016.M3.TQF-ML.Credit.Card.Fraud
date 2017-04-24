@@ -15,7 +15,7 @@ My intention is to create classification models using: Logistic Regression, SVMs
 
 The Undersample framework:
 
-For this porpuse I decided to build a new dataset from the original one, which contains the whole amount of fraudolent transactions and a proportional amount of non-fraudolent transactions, randomly choosen. In this way we estimate a model that stress the features that are most meaningfull for classifing the fraudolent transactions.
+For this porpuse I decided to build a new dataset from the original one, which contains the whole amount of fraudolent transactions and a proportional amount of non-fraudolent transactions randomly choosen. In this way we estimate a model that stresses the features that are most meaningfull for classifing the fraudolent transactions.
 I will test the estimated model, in the original dataset, to see if it is able to reach better performance.
 
 Using Cross Validation I want to establish which is the best model, among those proposed, according to the 'Recall' ratio and The 'ROC AUC' ratio.
